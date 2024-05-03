@@ -3,16 +3,30 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { MultilevelMenuService,NgMaterialMultilevelMenuModule } from 'ng-material-multilevel-menu';
+import { MatImportModule } from './modules/mat-import/mat-import.module';
+import { HomeComponent } from './components/home/home.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavBarComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatImportModule,
+    NgMaterialMultilevelMenuModule
   ],
-  providers: [],
+  providers: [
+    provideAnimationsAsync(),
+    MultilevelMenuService
+
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
