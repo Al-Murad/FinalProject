@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 export const navItems = [
     {
         label: 'Home',
@@ -51,3 +52,7 @@ export const navItems = [
 
 
 ];
+=======
+export class AppConstants {
+}
+>>>>>>> ca6fd2ee2aacf76dc70882cd642e59388bf132c6

@@ -5,57 +5,53 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-<<<<<<< HEAD
-using APSS.Lib.Models;
-=======
 using APSS.Api.Models;
->>>>>>> ca6fd2ee2aacf76dc70882cd642e59388bf132c6
 
 namespace APSS.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class PartsController : ControllerBase
+    public class ServicesController : ControllerBase
     {
         private readonly AutoPartsDbContext _context;
 
-        public PartsController(AutoPartsDbContext context)
+        public ServicesController(AutoPartsDbContext context)
         {
             _context = context;
         }
 
-        // GET: api/Parts
+        // GET: api/Services
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Part>>> GetParts()
+        public async Task<ActionResult<IEnumerable<Service>>> GetServices()
         {
-            return await _context.Parts.ToListAsync();
+            return await _context.Services.ToListAsync();
         }
 
-        // GET: api/Parts/5
+        // GET: api/Services/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Part>> GetPart(int id)
+        public async Task<ActionResult<Service>> GetService(int id)
         {
-            var part = await _context.Parts.FindAsync(id);
+            var service = await _context.Services.FindAsync(id);
 
-            if (part == null)
+            if (service == null)
             {
                 return NotFound();
             }
 
-            return part;
+            return service;
         }
 
-        // PUT: api/Parts/5
+        // PUT: api/Services/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutPart(int id, Part part)
+        public async Task<IActionResult> PutService(int id, Service service)
         {
-            if (id != part.PartId)
+            if (id != service.ServiceId)
             {
                 return BadRequest();
             }
 
-            _context.Entry(part).State = EntityState.Modified;
+            _context.Entry(service).State = EntityState.Modified;
 
             try
             {
@@ -63,7 +59,7 @@ namespace APSS.Api.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!PartExists(id))
+                if (!ServiceExists(id))
                 {
                     return NotFound();
                 }
@@ -76,36 +72,36 @@ namespace APSS.Api.Controllers
             return NoContent();
         }
 
-        // POST: api/Parts
+        // POST: api/Services
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Part>> PostPart(Part part)
+        public async Task<ActionResult<Service>> PostService(Service service)
         {
-            _context.Parts.Add(part);
+            _context.Services.Add(service);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetPart", new { id = part.PartId }, part);
+            return CreatedAtAction("GetService", new { id = service.ServiceId }, service);
         }
 
-        // DELETE: api/Parts/5
+        // DELETE: api/Services/5
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeletePart(int id)
+        public async Task<IActionResult> DeleteService(int id)
         {
-            var part = await _context.Parts.FindAsync(id);
-            if (part == null)
+            var service = await _context.Services.FindAsync(id);
+            if (service == null)
             {
                 return NotFound();
             }
 
-            _context.Parts.Remove(part);
+            _context.Services.Remove(service);
             await _context.SaveChangesAsync();
 
             return NoContent();
         }
 
-        private bool PartExists(int id)
+        private bool ServiceExists(int id)
         {
-            return _context.Parts.Any(e => e.PartId == id);
+            return _context.Services.Any(e => e.ServiceId == id);
         }
     }
 }

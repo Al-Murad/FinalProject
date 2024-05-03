@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+<<<<<<< HEAD
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
@@ -37,13 +38,20 @@ const modules= [
 ];
 
 
+=======
+>>>>>>> ca6fd2ee2aacf76dc70882cd642e59388bf132c6
 
 
 @NgModule({
   declarations: [],
   imports: [
+<<<<<<< HEAD
     CommonModule, ...modules
   ],
   exports:[...modules]
+=======
+    CommonModule
+  ]
+>>>>>>> ca6fd2ee2aacf76dc70882cd642e59388bf132c6
 })
 export class MatImportModule { }
