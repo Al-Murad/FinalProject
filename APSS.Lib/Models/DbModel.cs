@@ -257,6 +257,8 @@ namespace APSS.Lib.Models
         public virtual Product? Product { get; set; }
     }
 
+	//DbContext
+
 
     public class AutoPartsDbContext : DbContext
     {
