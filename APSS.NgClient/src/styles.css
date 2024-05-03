@@ -2,3 +2,12 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+<<<<<<< HEAD
+.filter{
+ flex: 1 1 auto;
+}
+.container{
+    margin: 10px 30px;
+}
+=======
+>>>>>>> ca6fd2ee2aacf76dc70882cd642e59388bf132c6

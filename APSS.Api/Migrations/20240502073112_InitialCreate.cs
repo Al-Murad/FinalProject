@@ -25,6 +25,21 @@ namespace APSS.Api.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Customers",
+                columns: table => new
+                {
+                    CustomerId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    CustomerName = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    Phone = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: false),
+                    Email = table.Column<string>(type: "nvarchar(30)", maxLength: 30, nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Customers", x => x.CustomerId);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "ServiceStatus",
                 columns: table => new
                 {
@@ -38,6 +53,21 @@ namespace APSS.Api.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Suppliers",
+                columns: table => new
+                {
+                    SupplierId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    CompanyName = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    ContactName = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    ContactNo = table.Column<string>(type: "nvarchar(30)", maxLength: 30, nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Suppliers", x => x.SupplierId);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "VehicleTypes",
                 columns: table => new
                 {
@@ -48,6 +78,26 @@ namespace APSS.Api.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_VehicleTypes", x => x.VehicleTypeId);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Orders",
+                columns: table => new
+                {
+                    OrderId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    CustomerId = table.Column<int>(type: "int", nullable: false),
+                    OrderDate = table.Column<DateTime>(type: "date", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Orders", x => x.OrderId);
+                    table.ForeignKey(
+                        name: "FK_Orders_Customers_CustomerId",
+                        column: x => x.CustomerId,
+                        principalTable: "Customers",
+                        principalColumn: "CustomerId",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -118,9 +168,6 @@ namespace APSS.Api.Migrations
                 {
                     ServiceRequestId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Description = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
-                    RequestDate = table.Column<DateTime>(type: "date", nullable: false),
-                    ProposedServiceDate = table.Column<DateTime>(type: "date", nullable: false),
                     CustomerName = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
                     Phone = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
                     Email = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
@@ -134,6 +181,63 @@ namespace APSS.Api.Migrations
                         column: x => x.ServiceTypeId,
                         principalTable: "ServiceTypes",
                         principalColumn: "ServiceTypeId",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Inventories",
+                columns: table => new
+                {
+                    InventoryId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    InventoryCode = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    Quantity = table.Column<int>(type: "int", nullable: false),
+                    UnitPrice = table.Column<decimal>(type: "money", nullable: false),
+                    RetailPrice = table.Column<decimal>(type: "money", nullable: false),
+                    SupplierId = table.Column<int>(type: "int", nullable: false),
+                    ProductId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Inventories", x => x.InventoryId);
+                    table.ForeignKey(
+                        name: "FK_Inventories_Products_ProductId",
+                        column: x => x.ProductId,
+                        principalTable: "Products",
+                        principalColumn: "ProductId",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Inventories_Suppliers_SupplierId",
+                        column: x => x.SupplierId,
+                        principalTable: "Suppliers",
+                        principalColumn: "SupplierId",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "OrderDetails",
+                columns: table => new
+                {
+                    OrderDetailId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    OrderId = table.Column<int>(type: "int", nullable: false),
+                    ProductId = table.Column<int>(type: "int", nullable: false),
+                    Quantity = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_OrderDetails", x => x.OrderDetailId);
+                    table.ForeignKey(
+                        name: "FK_OrderDetails_Orders_OrderId",
+                        column: x => x.OrderId,
+                        principalTable: "Orders",
+                        principalColumn: "OrderId",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_OrderDetails_Products_ProductId",
+                        column: x => x.ProductId,
+                        principalTable: "Products",
+                        principalColumn: "ProductId",
                         onDelete: ReferentialAction.Cascade);
                 });
 
@@ -179,27 +283,75 @@ namespace APSS.Api.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Services",
+                name: "StockEntries",
                 columns: table => new
                 {
-                    ServiceId = table.Column<int>(type: "int", nullable: false)
+                    StockEntryId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    ServiceDetails = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
-                    ServiceCost = table.Column<decimal>(type: "money", nullable: false),
-                    ServiceRequestId = table.Column<int>(type: "int", nullable: false),
-                    ServiceStatusId = table.Column<int>(type: "int", nullable: false)
+                    TotalIn = table.Column<int>(type: "int", nullable: false),
+                    TotalSold = table.Column<int>(type: "int", nullable: false),
+                    ProductId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Services", x => x.ServiceId);
+                    table.PrimaryKey("PK_StockEntries", x => x.StockEntryId);
                     table.ForeignKey(
-                        name: "FK_Services_ServiceRequests_ServiceRequestId",
+                        name: "FK_StockEntries_Products_ProductId",
+                        column: x => x.ProductId,
+                        principalTable: "Products",
+                        principalColumn: "ProductId",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "ServiceDetails",
+                columns: table => new
+                {
+                    ServiceDetailId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Description = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    RequestDate = table.Column<DateTime>(type: "date", nullable: false),
+                    ProposedServiceDate = table.Column<DateTime>(type: "date", nullable: false),
+                    ServiceRequestId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_ServiceDetails", x => x.ServiceDetailId);
+                    table.ForeignKey(
+                        name: "FK_ServiceDetails_ServiceRequests_ServiceRequestId",
                         column: x => x.ServiceRequestId,
                         principalTable: "ServiceRequests",
                         principalColumn: "ServiceRequestId",
                         onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "ServiceDetailEntries",
+                columns: table => new
+                {
+                    ServiceDetailEntryId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    ServiceCost = table.Column<decimal>(type: "money", nullable: false),
+                    ServiceDetailId = table.Column<int>(type: "int", nullable: false),
+                    ServiceStatusId = table.Column<int>(type: "int", nullable: false),
+                    ServiceRequestId = table.Column<int>(type: "int", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_ServiceDetailEntries", x => x.ServiceDetailEntryId);
                     table.ForeignKey(
-                        name: "FK_Services_ServiceStatus_ServiceStatusId",
+                        name: "FK_ServiceDetailEntries_ServiceDetails_ServiceDetailId",
+                        column: x => x.ServiceDetailId,
+                        principalTable: "ServiceDetails",
+                        principalColumn: "ServiceDetailId",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_ServiceDetailEntries_ServiceRequests_ServiceRequestId",
+                        column: x => x.ServiceRequestId,
+                        principalTable: "ServiceRequests",
+                        principalColumn: "ServiceRequestId");
+                    table.ForeignKey(
+                        name: "FK_ServiceDetailEntries_ServiceStatus_ServiceStatusId",
                         column: x => x.ServiceStatusId,
                         principalTable: "ServiceStatus",
                         principalColumn: "ServiceStatusId",
@@ -214,16 +366,16 @@ namespace APSS.Api.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     PartName = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
                     Price = table.Column<decimal>(type: "money", nullable: false),
-                    ServiceId = table.Column<int>(type: "int", nullable: false)
+                    ServiceDetailEntryId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Parts", x => x.PartId);
                     table.ForeignKey(
-                        name: "FK_Parts_Services_ServiceId",
-                        column: x => x.ServiceId,
-                        principalTable: "Services",
-                        principalColumn: "ServiceId",
+                        name: "FK_Parts_ServiceDetailEntries_ServiceDetailEntryId",
+                        column: x => x.ServiceDetailEntryId,
+                        principalTable: "ServiceDetailEntries",
+                        principalColumn: "ServiceDetailEntryId",
                         onDelete: ReferentialAction.Cascade);
                 });
 
@@ -236,23 +388,48 @@ namespace APSS.Api.Migrations
                     Amount = table.Column<decimal>(type: "money", nullable: false),
                     PaymentThrough = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
                     PaymentDate = table.Column<DateTime>(type: "date", nullable: false),
-                    ServiceId = table.Column<int>(type: "int", nullable: false)
+                    ServiceDetailEntryId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_ServicePayments", x => x.ServicePaymentId);
                     table.ForeignKey(
-                        name: "FK_ServicePayments_Services_ServiceId",
-                        column: x => x.ServiceId,
-                        principalTable: "Services",
-                        principalColumn: "ServiceId",
+                        name: "FK_ServicePayments_ServiceDetailEntries_ServiceDetailEntryId",
+                        column: x => x.ServiceDetailEntryId,
+                        principalTable: "ServiceDetailEntries",
+                        principalColumn: "ServiceDetailEntryId",
                         onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Parts_ServiceId",
+                name: "IX_Inventories_ProductId",
+                table: "Inventories",
+                column: "ProductId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Inventories_SupplierId",
+                table: "Inventories",
+                column: "SupplierId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_OrderDetails_OrderId",
+                table: "OrderDetails",
+                column: "OrderId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_OrderDetails_ProductId",
+                table: "OrderDetails",
+                column: "ProductId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Orders_CustomerId",
+                table: "Orders",
+                column: "CustomerId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Parts_ServiceDetailEntryId",
                 table: "Parts",
-                column: "ServiceId");
+                column: "ServiceDetailEntryId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_ProductCategories_VehicleTypeId",
@@ -275,9 +452,29 @@ namespace APSS.Api.Migrations
                 column: "ProductCategoryId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_ServicePayments_ServiceId",
+                name: "IX_ServiceDetailEntries_ServiceDetailId",
+                table: "ServiceDetailEntries",
+                column: "ServiceDetailId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_ServiceDetailEntries_ServiceRequestId",
+                table: "ServiceDetailEntries",
+                column: "ServiceRequestId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_ServiceDetailEntries_ServiceStatusId",
+                table: "ServiceDetailEntries",
+                column: "ServiceStatusId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_ServiceDetails_ServiceRequestId",
+                table: "ServiceDetails",
+                column: "ServiceRequestId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_ServicePayments_ServiceDetailEntryId",
                 table: "ServicePayments",
-                column: "ServiceId");
+                column: "ServiceDetailEntryId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_ServiceRequests_ServiceTypeId",
@@ -285,19 +482,15 @@ namespace APSS.Api.Migrations
                 column: "ServiceTypeId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Services_ServiceRequestId",
-                table: "Services",
-                column: "ServiceRequestId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Services_ServiceStatusId",
-                table: "Services",
-                column: "ServiceStatusId");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_ServiceTypes_VehicleTypeId",
                 table: "ServiceTypes",
                 column: "VehicleTypeId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_StockEntries_ProductId",
+                table: "StockEntries",
+                column: "ProductId",
+                unique: true);
         }
 
         /// <inheritdoc />
@@ -305,6 +498,12 @@ namespace APSS.Api.Migrations
         {
             migrationBuilder.DropTable(
                 name: "CommonDetails");
+
+            migrationBuilder.DropTable(
+                name: "Inventories");
+
+            migrationBuilder.DropTable(
+                name: "OrderDetails");
 
             migrationBuilder.DropTable(
                 name: "Parts");
@@ -319,19 +518,34 @@ namespace APSS.Api.Migrations
                 name: "ServicePayments");
 
             migrationBuilder.DropTable(
+                name: "StockEntries");
+
+            migrationBuilder.DropTable(
+                name: "Suppliers");
+
+            migrationBuilder.DropTable(
+                name: "Orders");
+
+            migrationBuilder.DropTable(
+                name: "ServiceDetailEntries");
+
+            migrationBuilder.DropTable(
                 name: "Products");
 
             migrationBuilder.DropTable(
-                name: "Services");
+                name: "Customers");
+
+            migrationBuilder.DropTable(
+                name: "ServiceDetails");
+
+            migrationBuilder.DropTable(
+                name: "ServiceStatus");
 
             migrationBuilder.DropTable(
                 name: "ProductCategories");
 
             migrationBuilder.DropTable(
                 name: "ServiceRequests");
-
-            migrationBuilder.DropTable(
-                name: "ServiceStatus");
 
             migrationBuilder.DropTable(
                 name: "ServiceTypes");

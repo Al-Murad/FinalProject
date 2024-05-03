@@ -8,6 +8,10 @@
     ".NETCoreApp,Version=v8.0": {
       "APSS.Api/1.0.0": {
         "dependencies": {
+<<<<<<< HEAD
+          "APSS.Lib": "1.0.0",
+=======
+>>>>>>> ca6fd2ee2aacf76dc70882cd642e59388bf132c6
           "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter": "8.0.4",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "8.0.4",
           "Microsoft.EntityFrameworkCore": "8.0.4",
@@ -2064,6 +2068,14 @@
             "fileVersion": "7.0.22.51805"
           }
         }
+      },
+      "APSS.Lib/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.4"
+        },
+        "runtime": {
+          "APSS.Lib.dll": {}
+        }
       }
     }
   },
@@ -3311,6 +3323,14 @@
       "sha512": "sha512-bR4qdCmssMMbo9Fatci49An5B1UaVJZHKNq70PRgzoLYIlitb8Tj7ns/Xt5Pz1CkERiTjcVBDU2y1AVrPBYkaw==",
       "path": "system.windows.extensions/7.0.0",
       "hashPath": "system.windows.extensions.7.0.0.nupkg.sha512"
+<<<<<<< HEAD
+    },
+    "APSS.Lib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+=======
+>>>>>>> ca6fd2ee2aacf76dc70882cd642e59388bf132c6
     }
   }
 }

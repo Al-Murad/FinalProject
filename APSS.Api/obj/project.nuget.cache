@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "BWcrKuFrFXt8Y+dAT7Inw2QIS6AhZXFAdKG7ZFqgYoBmp1aIoVHX/SBMr36m0209/QUWG9b0dt6ZDISWPwnOVQ==",
+=======
   "dgSpecHash": "sCVUkS5EgxdCRtRxp2P+DwAuQiOMo02vmhA+Q8t6i4GUOCpzMS6qXHiyuI6DM6zJNWNjTBPW5NB3Iqj81c3pRw==",
+>>>>>>> ca6fd2ee2aacf76dc70882cd642e59388bf132c6
   "success": true,
   "projectFilePath": "D:\\Al-murad\\Final Project\\AutoPartsSalesAndService\\APSS.Api\\APSS.Api.csproj",
   "expectedPackageFiles": [
