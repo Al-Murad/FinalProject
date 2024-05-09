@@ -53,7 +53,11 @@
               "src/assets"
             ],
             "styles": [
+<<<<<<< HEAD
               "@angular/material/prebuilt-themes/indigo-pink.css",
+=======
+              "@angular/material/prebuilt-themes/purple-green.css",
+>>>>>>> 4ed68c7c2cf7e72f01f92db1c3ca10c0d82e032a
               "src/styles.css"
             ],
             "scripts": []
@@ -113,7 +117,11 @@
               "src/assets"
             ],
             "styles": [
+<<<<<<< HEAD
               "@angular/material/prebuilt-themes/indigo-pink.css",
+=======
+              "@angular/material/prebuilt-themes/purple-green.css",
+>>>>>>> 4ed68c7c2cf7e72f01f92db1c3ca10c0d82e032a
               "src/styles.css"
             ],
             "scripts": []

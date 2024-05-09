@@ -53,7 +53,11 @@ namespace APSS.Lib.Models
     public class ProductPicture
     {
         public int ProductPictureId { get; set; }
+<<<<<<< HEAD
         [Required(ErrorMessage = "Picture is required"), StringLength(150)]
+=======
+        [Required(ErrorMessage = "Picture is required"), StringLength(50)]
+>>>>>>> 4ed68c7c2cf7e72f01f92db1c3ca10c0d82e032a
         public string Picture { get; set; } = default!;
         [Required, ForeignKey("Product")]
         public int ProductId { get; set; }
@@ -76,7 +80,11 @@ namespace APSS.Lib.Models
     public class CommonDetail
     {
         public int CommonDetailId { get; set; }
+<<<<<<< HEAD
         [Required(ErrorMessage = "DetailName is required"), StringLength(250)]
+=======
+        [Required(ErrorMessage = "DetailName is required"), StringLength(50)]
+>>>>>>> 4ed68c7c2cf7e72f01f92db1c3ca10c0d82e032a
         public string DetailName { get; set; } = default!;
 
     }
@@ -90,7 +98,11 @@ namespace APSS.Lib.Models
         public virtual VehicleType? VehicleType { get; set; }
         public virtual ICollection<ServiceRequest> ServiceRequests { get; set; } = new List<ServiceRequest>();
     }
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 4ed68c7c2cf7e72f01f92db1c3ca10c0d82e032a
     public class ServiceRequest
     {
         public int ServiceRequestId { get; set; }
@@ -123,15 +135,24 @@ namespace APSS.Lib.Models
 
         public int ServiceRequestId { get; set; }
         public virtual ServiceRequest? ServiceRequest { get; set; }
+<<<<<<< HEAD
         public virtual ICollection<ServiceDetailEntry> ServiceDetailEntries { get; set; }= new List<ServiceDetailEntry>();  
+=======
+        public virtual ICollection<ServiceDetailEntry> ServiceDetailEntries { get; set; } = new List<ServiceDetailEntry>();
+>>>>>>> 4ed68c7c2cf7e72f01f92db1c3ca10c0d82e032a
 
     }
 
     public class ServiceDetailEntry
     {
         public int ServiceDetailEntryId { get; set; }
+<<<<<<< HEAD
        
       
+=======
+
+
+>>>>>>> 4ed68c7c2cf7e72f01f92db1c3ca10c0d82e032a
         [Required, Column(TypeName = "money")]
         public decimal ServiceCost { get; set; }
         [Required, ForeignKey("ServiceDetail")]
@@ -142,7 +163,11 @@ namespace APSS.Lib.Models
         public int ServiceStatusId { get; set; }
         public virtual ServiceStatus? ServiceStatus { get; set; }
 
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 4ed68c7c2cf7e72f01f92db1c3ca10c0d82e032a
         public virtual ICollection<Part> Parts { get; set; } = new List<Part>();
         public virtual ICollection<ServicePayment> ServicePayments { get; set; } = new List<ServicePayment>();
     }
@@ -207,7 +232,11 @@ namespace APSS.Lib.Models
         [Required, ForeignKey("Product")]
         public int ProductId { get; set; }
         public virtual Product? Product { get; set; }
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 4ed68c7c2cf7e72f01f92db1c3ca10c0d82e032a
     }
 
     public class StockEntry
@@ -278,6 +307,11 @@ namespace APSS.Lib.Models
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderDetail> OrderDetails { get; set; }
+<<<<<<< HEAD
+=======
+        public DbSet<Inventory> Inventories { get; set; }
+        public DbSet<Supplier> Suppliers { get; set; }
+>>>>>>> 4ed68c7c2cf7e72f01f92db1c3ca10c0d82e032a
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Product>()

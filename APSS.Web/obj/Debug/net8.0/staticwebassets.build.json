@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "drRg9zKOIrctCL9opFZ8kWeWKAVwXcPd+5QZYfJKyeY=",
+=======
+  "Hash": "rUxXUrOoPzyIGMj1tmJGma8C4NjcGkOU3+jz5qHPq7o=",
+>>>>>>> 4ed68c7c2cf7e72f01f92db1c3ca10c0d82e032a
   "Source": "APSS.Web",
   "BasePath": "_content/APSS.Web",
   "Mode": "Default",
@@ -10,17 +14,28 @@
     {
       "Name": "APSS.Web\\wwwroot",
       "Source": "APSS.Web",
+<<<<<<< HEAD
       "ContentRoot": "D:\\R56\\Project\\AutoPartsSalesAndService\\APSS.Web\\wwwroot\\",
+=======
+      "ContentRoot": "D:\\Al-murad\\Final Project\\AutoPartsSalesAndService\\APSS.Web\\wwwroot\\",
+>>>>>>> 4ed68c7c2cf7e72f01f92db1c3ca10c0d82e032a
       "BasePath": "_content/APSS.Web",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
+<<<<<<< HEAD
       "Identity": "D:\\R56\\Project\\AutoPartsSalesAndService\\APSS.Web\\wwwroot\\libs\\materilize\\css\\materialize.css",
       "SourceId": "APSS.Web",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\R56\\Project\\AutoPartsSalesAndService\\APSS.Web\\wwwroot\\",
+=======
+      "Identity": "D:\\Al-murad\\Final Project\\AutoPartsSalesAndService\\APSS.Web\\wwwroot\\libs\\materilize\\css\\materialize.css",
+      "SourceId": "APSS.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Al-murad\\Final Project\\AutoPartsSalesAndService\\APSS.Web\\wwwroot\\",
+>>>>>>> 4ed68c7c2cf7e72f01f92db1c3ca10c0d82e032a
       "BasePath": "_content/APSS.Web",
       "RelativePath": "libs/materilize/css/materialize.css",
       "AssetKind": "All",
@@ -36,10 +51,17 @@
       "OriginalItemSpec": "wwwroot\\libs\\materilize\\css\\materialize.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\R56\\Project\\AutoPartsSalesAndService\\APSS.Web\\wwwroot\\libs\\materilize\\css\\materialize.min.css",
       "SourceId": "APSS.Web",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\R56\\Project\\AutoPartsSalesAndService\\APSS.Web\\wwwroot\\",
+=======
+      "Identity": "D:\\Al-murad\\Final Project\\AutoPartsSalesAndService\\APSS.Web\\wwwroot\\libs\\materilize\\css\\materialize.min.css",
+      "SourceId": "APSS.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Al-murad\\Final Project\\AutoPartsSalesAndService\\APSS.Web\\wwwroot\\",
+>>>>>>> 4ed68c7c2cf7e72f01f92db1c3ca10c0d82e032a
       "BasePath": "_content/APSS.Web",
       "RelativePath": "libs/materilize/css/materialize.min.css",
       "AssetKind": "All",
@@ -55,10 +77,17 @@
       "OriginalItemSpec": "wwwroot\\libs\\materilize\\css\\materialize.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\R56\\Project\\AutoPartsSalesAndService\\APSS.Web\\wwwroot\\libs\\materilize\\js\\materialize.js",
       "SourceId": "APSS.Web",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\R56\\Project\\AutoPartsSalesAndService\\APSS.Web\\wwwroot\\",
+=======
+      "Identity": "D:\\Al-murad\\Final Project\\AutoPartsSalesAndService\\APSS.Web\\wwwroot\\libs\\materilize\\js\\materialize.js",
+      "SourceId": "APSS.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Al-murad\\Final Project\\AutoPartsSalesAndService\\APSS.Web\\wwwroot\\",
+>>>>>>> 4ed68c7c2cf7e72f01f92db1c3ca10c0d82e032a
       "BasePath": "_content/APSS.Web",
       "RelativePath": "libs/materilize/js/materialize.js",
       "AssetKind": "All",
@@ -74,10 +103,17 @@
       "OriginalItemSpec": "wwwroot\\libs\\materilize\\js\\materialize.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\R56\\Project\\AutoPartsSalesAndService\\APSS.Web\\wwwroot\\libs\\materilize\\js\\materialize.min.js",
       "SourceId": "APSS.Web",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\R56\\Project\\AutoPartsSalesAndService\\APSS.Web\\wwwroot\\",
+=======
+      "Identity": "D:\\Al-murad\\Final Project\\AutoPartsSalesAndService\\APSS.Web\\wwwroot\\libs\\materilize\\js\\materialize.min.js",
+      "SourceId": "APSS.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Al-murad\\Final Project\\AutoPartsSalesAndService\\APSS.Web\\wwwroot\\",
+>>>>>>> 4ed68c7c2cf7e72f01f92db1c3ca10c0d82e032a
       "BasePath": "_content/APSS.Web",
       "RelativePath": "libs/materilize/js/materialize.min.js",
       "AssetKind": "All",

@@ -1,11 +1,16 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "8UpGUdvMTHL+ncIA36YFBOJNnOZRNEGWIqAc1DLwOUk=",
+=======
+  "Hash": "2TzIRlXDClK+iVdTuJrDA6+0P1+P3S0KWqIJk7YcLyY=",
+>>>>>>> 4ed68c7c2cf7e72f01f92db1c3ca10c0d82e032a
   "Source": "APSS.Api",
   "BasePath": "_content/APSS.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
+<<<<<<< HEAD
   "DiscoveryPatterns": [
     {
       "Name": "APSS.Api\\wwwroot",
@@ -21,6 +26,15 @@
       "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\habibul_haq\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.4\\staticwebassets\\",
+=======
+  "DiscoveryPatterns": [],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Lab104-06\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.4\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
+      "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Lab104-06\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.4\\staticwebassets\\",
+>>>>>>> 4ed68c7c2cf7e72f01f92db1c3ca10c0d82e032a
       "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
       "RelativePath": "Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
       "AssetKind": "All",
@@ -33,6 +47,7 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\habibul_haq\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.4\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css"
     },
     {
@@ -40,6 +55,15 @@
       "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\habibul_haq\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.4\\staticwebassets\\",
+=======
+      "OriginalItemSpec": "C:\\Users\\Lab104-06\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.4\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Lab104-06\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.4\\staticwebassets\\QuickGrid.razor.js",
+      "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Lab104-06\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.4\\staticwebassets\\",
+>>>>>>> 4ed68c7c2cf7e72f01f92db1c3ca10c0d82e032a
       "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
       "RelativePath": "QuickGrid.razor.js",
       "AssetKind": "All",
@@ -52,6 +76,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\habibul_haq\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.4\\staticwebassets\\QuickGrid.razor.js"
     },
     {
@@ -59,6 +84,15 @@
       "SourceId": "APSS.Api",
       "SourceType": "Computed",
       "ContentRoot": "D:\\R56\\Project\\AutoPartsSalesAndService\\APSS.Api\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+=======
+      "OriginalItemSpec": "C:\\Users\\Lab104-06\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.4\\staticwebassets\\QuickGrid.razor.js"
+    },
+    {
+      "Identity": "D:\\Al-murad\\Final Project\\AutoPartsSalesAndService\\APSS.Api\\obj\\Debug\\net8.0\\scopedcss\\bundle\\APSS.Api.styles.css",
+      "SourceId": "APSS.Api",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Al-murad\\Final Project\\AutoPartsSalesAndService\\APSS.Api\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+>>>>>>> 4ed68c7c2cf7e72f01f92db1c3ca10c0d82e032a
       "BasePath": "_content/APSS.Api",
       "RelativePath": "APSS.Api.styles.css",
       "AssetKind": "All",
@@ -71,6 +105,7 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "D:\\R56\\Project\\AutoPartsSalesAndService\\APSS.Api\\obj\\Debug\\net8.0\\scopedcss\\bundle\\APSS.Api.styles.css"
     },
     {
@@ -110,6 +145,9 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\9eb7b4d7-74d7-4958-80b8-c027ff80a338.jpg"
+=======
+      "OriginalItemSpec": "D:\\Al-murad\\Final Project\\AutoPartsSalesAndService\\APSS.Api\\obj\\Debug\\net8.0\\scopedcss\\bundle\\APSS.Api.styles.css"
+>>>>>>> 4ed68c7c2cf7e72f01f92db1c3ca10c0d82e032a
     }
   ]
 }

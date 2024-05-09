@@ -102,7 +102,11 @@ namespace APSS.Api.Migrations
 
                     b.HasIndex("SupplierId");
 
+<<<<<<< HEAD
                     b.ToTable("Inventory");
+=======
+                    b.ToTable("Inventories");
+>>>>>>> 4ed68c7c2cf7e72f01f92db1c3ca10c0d82e032a
                 });
 
             modelBuilder.Entity("APSS.Lib.Models.Order", b =>
@@ -494,7 +498,11 @@ namespace APSS.Api.Migrations
 
                     b.HasKey("SupplierId");
 
+<<<<<<< HEAD
                     b.ToTable("Supplier");
+=======
+                    b.ToTable("Suppliers");
+>>>>>>> 4ed68c7c2cf7e72f01f92db1c3ca10c0d82e032a
                 });
 
             modelBuilder.Entity("APSS.Lib.Models.VehicleType", b =>

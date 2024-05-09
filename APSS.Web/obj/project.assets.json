@@ -611,8 +611,13 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+<<<<<<< HEAD
             "D:\\R56\\Project\\AutoPartsSalesAndService\\APSS.Lib\\APSS.Lib.csproj": {
               "projectPath": "D:\\R56\\Project\\AutoPartsSalesAndService\\APSS.Lib\\APSS.Lib.csproj"
+=======
+            "D:\\Al-murad\\Final Project\\AutoPartsSalesAndService\\APSS.Lib\\APSS.Lib.csproj": {
+              "projectPath": "D:\\Al-murad\\Final Project\\AutoPartsSalesAndService\\APSS.Lib\\APSS.Lib.csproj"
+>>>>>>> 4ed68c7c2cf7e72f01f92db1c3ca10c0d82e032a
             }
           }
         }

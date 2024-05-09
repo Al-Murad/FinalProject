@@ -1,6 +1,7 @@
 {
   "Files": [
     {
+<<<<<<< HEAD
       "Id": "D:\\R56\\Project\\AutoPartsSalesAndService\\APSS.Web\\wwwroot\\libs\\materilize\\css\\materialize.css",
       "PackagePath": "staticwebassets\\libs\\materilize\\css\\materialize.css"
     },
@@ -14,6 +15,21 @@
     },
     {
       "Id": "D:\\R56\\Project\\AutoPartsSalesAndService\\APSS.Web\\wwwroot\\libs\\materilize\\js\\materialize.min.js",
+=======
+      "Id": "D:\\Al-murad\\Final Project\\AutoPartsSalesAndService\\APSS.Web\\wwwroot\\libs\\materilize\\css\\materialize.css",
+      "PackagePath": "staticwebassets\\libs\\materilize\\css\\materialize.css"
+    },
+    {
+      "Id": "D:\\Al-murad\\Final Project\\AutoPartsSalesAndService\\APSS.Web\\wwwroot\\libs\\materilize\\css\\materialize.min.css",
+      "PackagePath": "staticwebassets\\libs\\materilize\\css\\materialize.min.css"
+    },
+    {
+      "Id": "D:\\Al-murad\\Final Project\\AutoPartsSalesAndService\\APSS.Web\\wwwroot\\libs\\materilize\\js\\materialize.js",
+      "PackagePath": "staticwebassets\\libs\\materilize\\js\\materialize.js"
+    },
+    {
+      "Id": "D:\\Al-murad\\Final Project\\AutoPartsSalesAndService\\APSS.Web\\wwwroot\\libs\\materilize\\js\\materialize.min.js",
+>>>>>>> 4ed68c7c2cf7e72f01f92db1c3ca10c0d82e032a
       "PackagePath": "staticwebassets\\libs\\materilize\\js\\materialize.min.js"
     },
     {

@@ -3,7 +3,15 @@ using APSS.Lib.Models;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
+<<<<<<< HEAD
 builder.Services.AddDbContext<AutoPartsDbContext>(op => op.UseSqlServer(builder.Configuration.GetConnectionString("db"), b=> b.MigrationsAssembly("APSS.Api")));
+=======
+<<<<<<< HEAD
+builder.Services.AddDbContext<AutoPartsDbContext>(op => op.UseSqlServer(builder.Configuration.GetConnectionString("db"), b=> b.MigrationsAssembly("APSS.Api")));
+=======
+builder.Services.AddDbContext<AutoPartsDbContext>(op => op.UseSqlServer(builder.Configuration.GetConnectionString("db")));
+>>>>>>> ca6fd2ee2aacf76dc70882cd642e59388bf132c6
+>>>>>>> 4ed68c7c2cf7e72f01f92db1c3ca10c0d82e032a
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("EnableCors",

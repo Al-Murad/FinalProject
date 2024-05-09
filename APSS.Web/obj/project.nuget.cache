@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "jSvLfLjJY4v3D3l8HrSRsaHeBDoHkmo8iu6HKwKw4tYIpWOqPYZi/+JTptjbp5cpUP0/TZYriTr2bGfLtqYTVQ==",
   "success": true,
   "projectFilePath": "D:\\R56\\Project\\AutoPartsSalesAndService\\APSS.Web\\APSS.Web.csproj",
@@ -15,6 +16,23 @@
     "C:\\Users\\habibul_haq\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\habibul_haq\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
     "C:\\Users\\habibul_haq\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+=======
+  "dgSpecHash": "+EQlrWnmX68Ala3wFenGL0MTI9mjej4hIgvZeZEvOO489qnl5IWWeFtjzX5zpnibh9vRK5OTeom76EIXYOSpRw==",
+  "success": true,
+  "projectFilePath": "D:\\Al-murad\\Final Project\\AutoPartsSalesAndService\\APSS.Web\\APSS.Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lab104-06\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.4\\microsoft.entityframeworkcore.8.0.4.nupkg.sha512",
+    "C:\\Users\\Lab104-06\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.4\\microsoft.entityframeworkcore.abstractions.8.0.4.nupkg.sha512",
+    "C:\\Users\\Lab104-06\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.4\\microsoft.entityframeworkcore.analyzers.8.0.4.nupkg.sha512",
+    "C:\\Users\\Lab104-06\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Lab104-06\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0\\microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
+    "C:\\Users\\Lab104-06\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\Lab104-06\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Lab104-06\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "C:\\Users\\Lab104-06\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Lab104-06\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\Lab104-06\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+>>>>>>> 4ed68c7c2cf7e72f01f92db1c3ca10c0d82e032a
   ],
   "logs": []
 }

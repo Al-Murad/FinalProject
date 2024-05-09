@@ -1,20 +1,39 @@
 .sidenav-container {
   height: 100%;
+<<<<<<< HEAD
  
+=======
+  background-color: #135D66;
+>>>>>>> 4ed68c7c2cf7e72f01f92db1c3ca10c0d82e032a
 
 }
 
 .sidenav {
+<<<<<<< HEAD
   width: 256px;
  
 
 }
 
 
+=======
+  width: 250px;
+  background-color: #135D66;
+
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+>>>>>>> 4ed68c7c2cf7e72f01f92db1c3ca10c0d82e032a
 
 .mat-toolbar.mat-primary {
   position: sticky;
   top: 0;
   z-index: 1;
+<<<<<<< HEAD
 
+=======
+  background-color:#003C43;
+>>>>>>> 4ed68c7c2cf7e72f01f92db1c3ca10c0d82e032a
 }

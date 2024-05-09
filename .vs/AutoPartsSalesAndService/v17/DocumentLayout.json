@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "D:\\R56\\Project\\AutoPartsSalesAndService\\",
   "Documents": [
     {
@@ -33,6 +34,29 @@
     {
       "AbsoluteMoniker": "D:0:0:{A12226F9-8B73-48D9-A9C0-8740C0206DFE}|APSS.ReactClient\\apss.reactclient.esproj|d:\\r56\\project\\autopartssalesandservice\\apss.reactclient\\src\\components\\homecomponent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A12226F9-8B73-48D9-A9C0-8740C0206DFE}|APSS.ReactClient\\apss.reactclient.esproj|solutionrelative:apss.reactclient\\src\\components\\homecomponent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+=======
+  "WorkspaceRootPath": "F:\\AutoPartsSalesAndService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A12226F9-8B73-48D9-A9C0-8740C0206DFE}|APSS.ReactClient\\apss.reactclient.esproj|f:\\autopartssalesandservice\\apss.reactclient\\src\\components\\navbarcomponent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A12226F9-8B73-48D9-A9C0-8740C0206DFE}|APSS.ReactClient\\apss.reactclient.esproj|solutionrelative:apss.reactclient\\src\\components\\navbarcomponent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A12226F9-8B73-48D9-A9C0-8740C0206DFE}|APSS.ReactClient\\apss.reactclient.esproj|f:\\autopartssalesandservice\\apss.reactclient\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A12226F9-8B73-48D9-A9C0-8740C0206DFE}|APSS.ReactClient\\apss.reactclient.esproj|solutionrelative:apss.reactclient\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A12226F9-8B73-48D9-A9C0-8740C0206DFE}|APSS.ReactClient\\apss.reactclient.esproj|f:\\autopartssalesandservice\\apss.reactclient\\src\\components\\homecomponent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A12226F9-8B73-48D9-A9C0-8740C0206DFE}|APSS.ReactClient\\apss.reactclient.esproj|solutionrelative:apss.reactclient\\src\\components\\homecomponent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9238919D-8317-48BE-B597-0827BE35B4D6}|APSS.Api\\APSS.Api.csproj|f:\\autopartssalesandservice\\apss.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9238919D-8317-48BE-B597-0827BE35B4D6}|APSS.Api\\APSS.Api.csproj|solutionrelative:apss.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29A35796-4FE8-471A-BC55-393B41F89242}|APSS.Lib\\APSS.Lib.csproj|f:\\autopartssalesandservice\\apss.lib\\models\\dbmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29A35796-4FE8-471A-BC55-393B41F89242}|APSS.Lib\\APSS.Lib.csproj|solutionrelative:apss.lib\\models\\dbmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> 4ed68c7c2cf7e72f01f92db1c3ca10c0d82e032a
     }
   ],
   "DocumentGroupContainers": [
@@ -42,6 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 7,
           "Children": [
             {
@@ -69,10 +94,18 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-08T11:08:40.634Z",
               "EditorCaption": ""
+=======
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+>>>>>>> 4ed68c7c2cf7e72f01f92db1c3ca10c0d82e032a
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+<<<<<<< HEAD
               "Title": "ProductsController.cs",
               "DocumentMoniker": "D:\\R56\\Project\\AutoPartsSalesAndService\\APSS.Api\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "APSS.Api\\Controllers\\ProductsController.cs",
@@ -134,10 +167,33 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2024-04-24T05:44:29.467Z",
               "EditorCaption": ""
+=======
+              "Title": "App.jsx",
+              "DocumentMoniker": "F:\\AutoPartsSalesAndService\\apss.reactclient\\src\\App.jsx",
+              "RelativeDocumentMoniker": "apss.reactclient\\src\\App.jsx",
+              "ToolTip": "F:\\AutoPartsSalesAndService\\apss.reactclient\\src\\App.jsx",
+              "RelativeToolTip": "apss.reactclient\\src\\App.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-04-24T05:44:57.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeComponent.jsx",
+              "DocumentMoniker": "F:\\AutoPartsSalesAndService\\apss.reactclient\\src\\components\\HomeComponent.jsx",
+              "RelativeDocumentMoniker": "apss.reactclient\\src\\components\\HomeComponent.jsx",
+              "ToolTip": "F:\\AutoPartsSalesAndService\\apss.reactclient\\src\\components\\HomeComponent.jsx",
+              "RelativeToolTip": "apss.reactclient\\src\\components\\HomeComponent.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-04-24T05:44:29.467Z"
+>>>>>>> 4ed68c7c2cf7e72f01f92db1c3ca10c0d82e032a
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< HEAD
               "Title": "DbModel.cs",
               "DocumentMoniker": "D:\\R56\\Project\\AutoPartsSalesAndService\\APSS.Lib\\Models\\DbModel.cs",
               "RelativeDocumentMoniker": "APSS.Lib\\Models\\DbModel.cs",
@@ -147,6 +203,41 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-24T04:56:08.421Z",
               "EditorCaption": ""
+=======
+              "Title": "NavBarComponent.jsx",
+              "DocumentMoniker": "F:\\AutoPartsSalesAndService\\apss.reactclient\\src\\components\\NavBarComponent.jsx",
+              "RelativeDocumentMoniker": "apss.reactclient\\src\\components\\NavBarComponent.jsx",
+              "ToolTip": "F:\\AutoPartsSalesAndService\\apss.reactclient\\src\\components\\NavBarComponent.jsx",
+              "RelativeToolTip": "apss.reactclient\\src\\components\\NavBarComponent.jsx",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAwGQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-04-24T05:37:25.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\AutoPartsSalesAndService\\APSS.Api\\Program.cs",
+              "RelativeDocumentMoniker": "APSS.Api\\Program.cs",
+              "ToolTip": "F:\\AutoPartsSalesAndService\\APSS.Api\\Program.cs",
+              "RelativeToolTip": "APSS.Api\\Program.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAAUAAAB4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T04:56:54.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DbModel.cs",
+              "DocumentMoniker": "F:\\AutoPartsSalesAndService\\APSS.Lib\\Models\\DbModel.cs",
+              "RelativeDocumentMoniker": "APSS.Lib\\Models\\DbModel.cs",
+              "ToolTip": "F:\\AutoPartsSalesAndService\\APSS.Lib\\Models\\DbModel.cs",
+              "RelativeToolTip": "APSS.Lib\\Models\\DbModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAcwIUAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T04:56:08.421Z"
+>>>>>>> 4ed68c7c2cf7e72f01f92db1c3ca10c0d82e032a
             }
           ]
         }
