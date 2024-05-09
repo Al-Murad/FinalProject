@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\R56\\Project\\AutoPartsSalesAndService\\APSS.Api\\wwwroot\\Images\\1aff4c25-0fd4-44ff-aaa8-23265fea7f18.jpg",
+      "PackagePath": "staticwebassets\\Images\\1aff4c25-0fd4-44ff-aaa8-23265fea7f18.jpg"
+    },
+    {
+      "Id": "D:\\R56\\Project\\AutoPartsSalesAndService\\APSS.Api\\wwwroot\\Images\\9eb7b4d7-74d7-4958-80b8-c027ff80a338.jpg",
+      "PackagePath": "staticwebassets\\Images\\9eb7b4d7-74d7-4958-80b8-c027ff80a338.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.APSS.Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.APSS.Api.props",
+      "PackagePath": "build\\APSS.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.APSS.Api.props",
+      "PackagePath": "buildMultiTargeting\\APSS.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.APSS.Api.props",
+      "PackagePath": "buildTransitive\\APSS.Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

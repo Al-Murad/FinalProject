@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\R56\\Project\\AutoPartsSalesAndService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{29A35796-4FE8-471A-BC55-393B41F89242}|APSS.Lib\\APSS.Lib.csproj|d:\\r56\\project\\autopartssalesandservice\\apss.lib\\models\\dbmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29A35796-4FE8-471A-BC55-393B41F89242}|APSS.Lib\\APSS.Lib.csproj|solutionrelative:apss.lib\\models\\dbmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9238919D-8317-48BE-B597-0827BE35B4D6}|APSS.Api\\APSS.Api.csproj|d:\\r56\\project\\autopartssalesandservice\\apss.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9238919D-8317-48BE-B597-0827BE35B4D6}|APSS.Api\\APSS.Api.csproj|solutionrelative:apss.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9238919D-8317-48BE-B597-0827BE35B4D6}|APSS.Api\\APSS.Api.csproj|d:\\r56\\project\\autopartssalesandservice\\apss.api\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9238919D-8317-48BE-B597-0827BE35B4D6}|APSS.Api\\APSS.Api.csproj|solutionrelative:apss.api\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29A35796-4FE8-471A-BC55-393B41F89242}|APSS.Lib\\APSS.Lib.csproj|d:\\r56\\project\\autopartssalesandservice\\apss.lib\\viewmodels\\iamgepathresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29A35796-4FE8-471A-BC55-393B41F89242}|APSS.Lib\\APSS.Lib.csproj|solutionrelative:apss.lib\\viewmodels\\iamgepathresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9238919D-8317-48BE-B597-0827BE35B4D6}|APSS.Api\\APSS.Api.csproj|d:\\r56\\project\\autopartssalesandservice\\apss.api\\controllers\\commondetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9238919D-8317-48BE-B597-0827BE35B4D6}|APSS.Api\\APSS.Api.csproj|solutionrelative:apss.api\\controllers\\commondetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9238919D-8317-48BE-B597-0827BE35B4D6}|APSS.Api\\APSS.Api.csproj|d:\\r56\\project\\autopartssalesandservice\\apss.api\\controllers\\vehicletypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9238919D-8317-48BE-B597-0827BE35B4D6}|APSS.Api\\APSS.Api.csproj|solutionrelative:apss.api\\controllers\\vehicletypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9238919D-8317-48BE-B597-0827BE35B4D6}|APSS.Api\\APSS.Api.csproj|d:\\r56\\project\\autopartssalesandservice\\apss.api\\controllers\\productcategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9238919D-8317-48BE-B597-0827BE35B4D6}|APSS.Api\\APSS.Api.csproj|solutionrelative:apss.api\\controllers\\productcategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A12226F9-8B73-48D9-A9C0-8740C0206DFE}|APSS.ReactClient\\apss.reactclient.esproj|d:\\r56\\project\\autopartssalesandservice\\apss.reactclient\\src\\components\\homecomponent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A12226F9-8B73-48D9-A9C0-8740C0206DFE}|APSS.ReactClient\\apss.reactclient.esproj|solutionrelative:apss.reactclient\\src\\components\\homecomponent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IamgePathResponse.cs",
+              "DocumentMoniker": "D:\\R56\\Project\\AutoPartsSalesAndService\\APSS.Lib\\ViewModels\\IamgePathResponse.cs",
+              "RelativeDocumentMoniker": "APSS.Lib\\ViewModels\\IamgePathResponse.cs",
+              "ToolTip": "D:\\R56\\Project\\AutoPartsSalesAndService\\APSS.Lib\\ViewModels\\IamgePathResponse.cs",
+              "RelativeToolTip": "APSS.Lib\\ViewModels\\IamgePathResponse.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T11:54:35.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ImagesController.cs",
+              "DocumentMoniker": "D:\\R56\\Project\\AutoPartsSalesAndService\\APSS.Api\\Controllers\\ImagesController.cs",
+              "RelativeDocumentMoniker": "APSS.Api\\Controllers\\ImagesController.cs",
+              "ToolTip": "D:\\R56\\Project\\AutoPartsSalesAndService\\APSS.Api\\Controllers\\ImagesController.cs",
+              "RelativeToolTip": "APSS.Api\\Controllers\\ImagesController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAIAwwBQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T11:08:40.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\R56\\Project\\AutoPartsSalesAndService\\APSS.Api\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "APSS.Api\\Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\R56\\Project\\AutoPartsSalesAndService\\APSS.Api\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "APSS.Api\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAewE4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T10:04:46.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CommonDetailsController.cs",
+              "DocumentMoniker": "D:\\R56\\Project\\AutoPartsSalesAndService\\APSS.Api\\Controllers\\CommonDetailsController.cs",
+              "RelativeDocumentMoniker": "APSS.Api\\Controllers\\CommonDetailsController.cs",
+              "ToolTip": "D:\\R56\\Project\\AutoPartsSalesAndService\\APSS.Api\\Controllers\\CommonDetailsController.cs",
+              "RelativeToolTip": "APSS.Api\\Controllers\\CommonDetailsController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T09:14:21.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductCategoriesController.cs",
+              "DocumentMoniker": "D:\\R56\\Project\\AutoPartsSalesAndService\\APSS.Api\\Controllers\\ProductCategoriesController.cs",
+              "RelativeDocumentMoniker": "APSS.Api\\Controllers\\ProductCategoriesController.cs",
+              "ToolTip": "D:\\R56\\Project\\AutoPartsSalesAndService\\APSS.Api\\Controllers\\ProductCategoriesController.cs",
+              "RelativeToolTip": "APSS.Api\\Controllers\\ProductCategoriesController.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAADwvzEAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T05:37:20.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VehicleTypesController.cs",
+              "DocumentMoniker": "D:\\R56\\Project\\AutoPartsSalesAndService\\APSS.Api\\Controllers\\VehicleTypesController.cs",
+              "RelativeDocumentMoniker": "APSS.Api\\Controllers\\VehicleTypesController.cs",
+              "ToolTip": "D:\\R56\\Project\\AutoPartsSalesAndService\\APSS.Api\\Controllers\\VehicleTypesController.cs",
+              "RelativeToolTip": "APSS.Api\\Controllers\\VehicleTypesController.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAUwE8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T05:29:32.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeComponent.jsx",
+              "DocumentMoniker": "D:\\R56\\Project\\AutoPartsSalesAndService\\apss.reactclient\\src\\components\\HomeComponent.jsx",
+              "RelativeDocumentMoniker": "apss.reactclient\\src\\components\\HomeComponent.jsx",
+              "ToolTip": "D:\\R56\\Project\\AutoPartsSalesAndService\\apss.reactclient\\src\\components\\HomeComponent.jsx",
+              "RelativeToolTip": "apss.reactclient\\src\\components\\HomeComponent.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-04-24T05:44:29.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DbModel.cs",
+              "DocumentMoniker": "D:\\R56\\Project\\AutoPartsSalesAndService\\APSS.Lib\\Models\\DbModel.cs",
+              "RelativeDocumentMoniker": "APSS.Lib\\Models\\DbModel.cs",
+              "ToolTip": "D:\\R56\\Project\\AutoPartsSalesAndService\\APSS.Lib\\Models\\DbModel.cs",
+              "RelativeToolTip": "APSS.Lib\\Models\\DbModel.cs",
+              "ViewState": "AQIAAAkBAAAAAAAAAIA2wPcAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T04:56:08.421Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
